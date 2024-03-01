@@ -10,7 +10,7 @@ public class HelloServlet extends HttpServlet {
 
     public void init() {
         message = "Hello World!";
-    }//test
+    }//test test2
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.setContentType("text/html");
